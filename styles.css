@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/* Layout and Font */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1 {
+    margin: 20px 0 20px 0;
+}
+span {
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+header { 
+    background: url('San-Fran-Banner.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+header h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    display: inline;
+}
+header img {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+section {
+    background-image: url('San-Fran-Banner.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.courseInfo {margin: 10px 125px 10px 125px;}
+
+/* Course Sorting Styles*/
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8, #text9, #text1-1, #text3-1 {
+    display: none;
+    list-style: none;
+}
+.text1, .text3 {
+    display: none;
+    list-style: none;
+}
+form #courseSchedule {
+    margin: 20px;
+}
+#courseSchedule ul {
+    list-style: none;
+}
+input[type=checkbox] {
+    transform: scale(1.25);
+    margin-right: 5px;
+  }
+
+/* Accordion */
+.accordion-toggle {
+    cursor: pointer;
+    margin: 0;
+    border: 1px solid white;
+}
+.accordion-content {
+    display: none;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.accordion-content.default {
+    display: block;
+}
+#accordion {
+    background-color: #004f39;
+    border-radius: 4px;
+    margin: 20px;
+}
+#accordion h4 {
+    color: white;
+    padding: 10px 10px 10px 20px;
+}
+
